@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../Resataraunt.BLL/Resataraunt.BLL.csproj" />
+  <Project Path="../Restaraunt.DAL/Restaraunt.DAL.csproj" />
+  <Project Path="../Restaurant.Core/Restaurant.Core.csproj" />
+  <Project Path="../Restaurantt.PL/Restaurantt.PL.csproj" />
+</Solution>
