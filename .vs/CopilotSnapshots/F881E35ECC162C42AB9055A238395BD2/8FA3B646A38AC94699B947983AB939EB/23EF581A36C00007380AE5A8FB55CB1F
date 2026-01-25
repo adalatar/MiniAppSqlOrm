@@ -1,0 +1,16 @@
+﻿using Restaurant.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Resataraunt.BLL.Interfaces
+{
+    public interface IMenuItemService
+    {
+        Task GetMenuItemsAsync();
+        Task AddMenuItemAsync(MenuItem menuItem);
+        Task RemoveMenuItemAsync(MenuItem menuItem);
+        Task EditMenuItemAsync(MenuItem menuItem);
+    }
+}

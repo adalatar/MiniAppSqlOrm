@@ -1,0 +1,42 @@
+﻿using System;
+using Microsoft.EntityFrameworkCore;
+using Restaraunt.DAL.Data;
+
+namespace Restaurantt.PL
+{
+    public class Program
+    {
+        static async Task Main(string[] args)
+        {
+            // Initialize database
+            var optionsBuilder = new DbContextOptionsBuilder<RestararauntAppDbContext>();
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=RestarauntAppDb;Trusted_Connection=True;MultipleActiveResultSets=true");
+            
+            using (var context = new RestararauntAppDbContext(optionsBuilder.Options))
+            {
+                try
+                {
+                    // Apply migrations
+                    context.Database.Migrate();
+                    Console.WriteLine("Database migrated successfully.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Migration error: {ex.Message}");
+                }
+            }
+            
+            Console.WriteLine("Restaurant Ordering System initialized.");
+        }
+    }
+}
+
+    
+
+
+
+
+
+
+
+    

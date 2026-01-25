@@ -1,0 +1,107 @@
+﻿using Resataraunt.BLL.Interfaces;
+using Restaraunt.DAL.Data;
+using Restaurant.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+
+namespace Resataraunt.BLL.Services
+{
+    public class MenuItemService : IMenuItemService
+    {
+        private readonly RestararauntAppDbContext _context;
+
+        public MenuItemService()
+        {
+            _context = new RestararauntAppDbContext();
+        }
+
+        public async Task GetMenuItemsAsync()
+        {
+            try
+            {
+                var items = await _context.MenuItems.ToListAsync();
+                Console.WriteLine("Menu Items:");
+                foreach (var item in items)
+                {
+                    Console.WriteLine($"ID: {item.Id}, Name: {item.Name}, Price: ${item.Price}, Category: {item.Category}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving menu items: {ex.Message}");
+            }
+        }
+
+        public async Task AddMenuItemAsync(MenuItem menuItem)
+        {
+            try
+            {
+                if (menuItem != null && !string.IsNullOrEmpty(menuItem.Name))
+                {
+                    _context.MenuItems.Add(menuItem);
+                    await _context.SaveChangesAsync();
+                    Console.WriteLine($"Menu item '{menuItem.Name}' added successfully.");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid menu item data.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error adding menu item: {ex.Message}");
+            }
+        }
+
+        public async Task RemoveMenuItemAsync(int menuItemId)
+        {
+            try
+            {
+                var existingItem = await _context.MenuItems.FindAsync(menuItemId);
+                if (existingItem != null)
+                {
+                    _context.MenuItems.Remove(existingItem);
+                    await _context.SaveChangesAsync();
+                    Console.WriteLine($"Menu item removed successfully.");
+                }
+                else
+                {
+                    Console.WriteLine("Menu item not found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error removing menu item: {ex.Message}");
+            }
+        }
+
+        public async Task EditMenuItemAsync(int menuItemId, string name, decimal price, string category)
+        {
+            try
+            {
+                var existingItem = await _context.MenuItems.FindAsync(menuItemId);
+                if (existingItem != null)
+                {
+                    existingItem.Name = name;
+                    existingItem.Price = price;
+                    existingItem.Category = category;
+                    _context.MenuItems.Update(existingItem);
+                    await _context.SaveChangesAsync();
+                    Console.WriteLine($"Menu item updated successfully.");
+                }
+                else
+                {
+                    Console.WriteLine("Menu item not found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error editing menu item: {ex.Message}");
+            }
+        }
+    }
+}

@@ -1,0 +1,152 @@
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Restaraunt.DAL.Data;
+using Resataraunt.BLL.Interfaces;
+using Resataraunt.BLL.Services;
+using Restaurant.Core.Models;
+
+namespace Restaurantt.PL
+{
+    public class Program
+    {
+        static async Task Main(string[] args)
+        {
+            // Configure Dependency Injection
+            var services = new ServiceCollection();
+            
+       
+            
+            // Register Services
+            services.AddScoped<IMenuItemService, MenuItemService>();
+            services.AddScoped<IOrderService, OrderService>();
+            
+            var serviceProvider = services.BuildServiceProvider();
+            
+            // Get services
+            var menuItemService = serviceProvider.GetRequiredService<IMenuItemService>();
+            var orderService = serviceProvider.GetRequiredService<IOrderService>();
+            
+            // Main menu loop
+            bool running = true;
+            while (running)
+            {
+                Console.WriteLine("\n===== Restaurant Ordering System =====");
+                Console.WriteLine("1. View Menu Items");
+                Console.WriteLine("2. Add Menu Item");
+                Console.WriteLine("3. View Orders");
+                Console.WriteLine("4. Add Order");
+                Console.WriteLine("5. Exit");
+                Console.Write("Select option: ");
+                
+                string choice = Console.ReadLine();
+                
+                switch (choice)
+                {
+                    case "1":
+                        ViewMenuItems(menuItemService);
+                        break;
+                    case "2":
+                        AddMenuItem(menuItemService);
+                        break;
+                    case "3":
+                        ViewOrders(orderService);
+                        break;
+                    case "4":
+                        AddOrder(orderService);
+                        break;
+                    case "5":
+                        running = false;
+                        Console.WriteLine("Exiting...");
+                        break;
+                    default:
+                        Console.WriteLine("Invalid option. Please try again.");
+                        break;
+                }
+            }
+        }
+        
+        static void ViewMenuItems(IMenuItemService service)
+        {
+            Console.WriteLine("\n===== Menu Items =====");
+            try
+            {
+                var menuItem = new MenuItem();
+                service.GetMenuItems(menuItem);
+                Console.WriteLine("Menu items retrieved successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+        
+        static void AddMenuItem(IMenuItemService service)
+        {
+            Console.WriteLine("\n===== Add Menu Item =====");
+            try
+            {
+                Console.Write("Enter Name: ");
+                string name = Console.ReadLine();
+                
+                Console.Write("Enter Price: ");
+                if (decimal.TryParse(Console.ReadLine(), out decimal price))
+                {
+                    Console.Write("Enter Category: ");
+                    string category = Console.ReadLine();
+                    
+                    var menuItem = new MenuItem { Name = name, Price = price, Category = category };
+                    service.AddMenuItem(menuItem);
+                    Console.WriteLine("Menu item added successfully.");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid price format.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+        
+        static void ViewOrders(IOrderService service)
+        {
+            Console.WriteLine("\n===== Orders =====");
+            try
+            {
+                var orders = service.GetOrders();
+                Console.WriteLine($"Total orders: {orders?.Count ?? 0}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+        
+        static void AddOrder(IOrderService service)
+        {
+            Console.WriteLine("\n===== Add Order =====");
+            try
+            {
+                service.AddOrders();
+                Console.WriteLine("Order added successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+
+    
+
+
+
+
+
+
+
+    

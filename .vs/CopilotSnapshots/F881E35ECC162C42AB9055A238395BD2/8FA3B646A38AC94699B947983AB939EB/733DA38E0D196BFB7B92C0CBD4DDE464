@@ -1,0 +1,165 @@
+﻿using Resataraunt.BLL.Interfaces;
+using Restaraunt.DAL.Data;
+using Restaurant.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Resataraunt.BLL.Services
+{
+    public class OrderService : IOrderService
+    {
+        private readonly RestararauntAppDbContext _context;
+
+        public OrderService()
+        {
+            _context = new RestararauntAppDbContext();
+        }
+
+        public List<IOrderService> GetOrders()
+        {
+            try
+            {
+                var orders = _context.Orders.ToList();
+                return new List<IOrderService>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving orders: {ex.Message}");
+                return new List<IOrderService>();
+            }
+        }
+
+        public void AddOrders()
+        {
+            try
+            {
+                var order = new Order
+                {
+                    Date = DateTime.Now.Day,
+                    TotalAmount = 0,
+                    OrderItems = new List<OrderItem>()
+                };
+
+                _context.Orders.Add(order);
+                _context.SaveChanges();
+                Console.WriteLine("Order added successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error adding order: {ex.Message}");
+            }
+        }
+
+        public void RemoveOrder()
+        {
+            try
+            {
+                var lastOrder = _context.Orders.OrderByDescending(o => o.Id).FirstOrDefault();
+                if (lastOrder != null)
+                {
+                    _context.Orders.Remove(lastOrder);
+                    _context.SaveChanges();
+                    Console.WriteLine("Order removed successfully.");
+                }
+                else
+                {
+                    Console.WriteLine("No orders to remove.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error removing order: {ex.Message}");
+            }
+        }
+
+        public List<IOrderService> GetOrdersByDatesInterval()
+        {
+            try
+            {
+                Console.WriteLine("Enter start date (1-31): ");
+                int.TryParse(Console.ReadLine(), out int startDate);
+                
+                Console.WriteLine("Enter end date (1-31): ");
+                int.TryParse(Console.ReadLine(), out int endDate);
+
+                var orders = _context.Orders
+                    .Where(o => o.Date >= startDate && o.Date <= endDate)
+                    .ToList();
+
+                Console.WriteLine($"Found {orders.Count} orders between {startDate} and {endDate}.");
+                return new List<IOrderService>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving orders by date interval: {ex.Message}");
+                return new List<IOrderService>();
+            }
+        }
+
+        public List<IOrderService> GetOrdersByDate()
+        {
+            try
+            {
+                Console.WriteLine("Enter date (1-31): ");
+                int.TryParse(Console.ReadLine(), out int date);
+
+                var orders = _context.Orders
+                    .Where(o => o.Date == date)
+                    .ToList();
+
+                Console.WriteLine($"Found {orders.Count} orders on date {date}.");
+                return new List<IOrderService>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving orders by date: {ex.Message}");
+                return new List<IOrderService>();
+            }
+        }
+
+        public List<IOrderService> GetOrdersByPriceInterval()
+        {
+            try
+            {
+                Console.WriteLine("Enter minimum price: ");
+                decimal.TryParse(Console.ReadLine(), out decimal minPrice);
+                
+                Console.WriteLine("Enter maximum price: ");
+                decimal.TryParse(Console.ReadLine(), out decimal maxPrice);
+
+                var orders = _context.Orders
+                    .Where(o => o.TotalAmount >= minPrice && o.TotalAmount <= maxPrice)
+                    .ToList();
+
+                Console.WriteLine($"Found {orders.Count} orders between ${minPrice} and ${maxPrice}.");
+                return new List<IOrderService>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving orders by price interval: {ex.Message}");
+                return new List<IOrderService>();
+            }
+        }
+
+        public List<IOrderService> GetOrdersByNo()
+        {
+            try
+            {
+                var orders = _context.Orders.ToList();
+                Console.WriteLine($"Total orders in database: {orders.Count}");
+                foreach (var order in orders)
+                {
+                    Console.WriteLine($"Order ID: {order.Id}, Total Amount: ${order.TotalAmount}, Date: {order.Date}");
+                }
+                return new List<IOrderService>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving orders: {ex.Message}");
+                return new List<IOrderService>();
+            }
+        }
+    }
+}

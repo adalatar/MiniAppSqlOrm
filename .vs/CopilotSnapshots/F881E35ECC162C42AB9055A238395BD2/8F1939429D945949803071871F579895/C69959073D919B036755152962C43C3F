@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Resataraunt.BLL.Interfaces
+{
+    public interface IOrderService
+    {
+        List<IOrderService> GetOrders();
+        void AddOrders();
+        void RemoveOrder();
+        List<IOrderService> GetOrdersByDatesInterval();
+        List<IOrderService> GetOrdersByDate();
+        List<IOrderService> GetOrdersByPriceInterval();
+        List<IOrderService> GetOrdersByNo();
+
+
+
+
+
+
+
+    }
+}

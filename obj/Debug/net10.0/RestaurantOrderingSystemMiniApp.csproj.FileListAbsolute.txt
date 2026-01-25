@@ -1,0 +1,5 @@
+C:\Users\adala\source\repos\RestaurantOrderingSystemMiniApp\obj\Debug\net10.0\RestaurantOrderingSystemMiniApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adala\source\repos\RestaurantOrderingSystemMiniApp\obj\Debug\net10.0\RestaurantOrderingSystemMiniApp.AssemblyInfoInputs.cache
+C:\Users\adala\source\repos\RestaurantOrderingSystemMiniApp\obj\Debug\net10.0\RestaurantOrderingSystemMiniApp.AssemblyInfo.cs
+C:\Users\adala\source\repos\RestaurantOrderingSystemMiniApp\obj\Debug\net10.0\RestaurantOrderingSystemMiniApp.csproj.CoreCompileInputs.cache
+C:\Users\adala\source\repos\RestaurantOrderingSystemMiniApp\obj\Debug\net10.0\RestaurantOrderingSystemMiniApp.sourcelink.json

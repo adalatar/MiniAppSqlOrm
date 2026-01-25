@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Restaraunt.DAL.Data;
+using Resataraunt.BLL.Interfaces;
+using Resataraunt.BLL.Services;
+using Restaurant.Core.Models;
+
+namespace Restaurantt.PL
+{
+    public class Program
+    {
+        static async Task Main(string[] args)
+        {
+            Console.WriteLine("Restaurant Ordering System initialized.");
+        }
+    }
+}
+
+    
+
+
+
+
+
+
+
+    

@@ -1,0 +1,167 @@
+﻿using Resataraunt.BLL.Interfaces;
+using Restaraunt.DAL.Data;
+using Restaurant.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+
+namespace Resataraunt.BLL.Services
+{
+    public class OrderService : IOrderService
+    {
+        private readonly RestararauntAppDbContext _context;
+
+        public OrderService()
+        {
+            _context = new RestararauntAppDbContext();
+        }
+
+        public async Task<List<Order>> GetOrdersAsync()
+        {
+            try
+            {
+                var orders = await _context.Orders.ToListAsync();
+                return orders;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving orders: {ex.Message}");
+                return new List<Order>();
+            }
+        }
+
+        public async Task AddOrdersAsync()
+        {
+            try
+            {
+                var order = new Order
+                {
+                    Date = DateTime.Now.Day,
+                    TotalAmount = 0,
+                    OrderItems = new List<OrderItem>()
+                };
+
+                _context.Orders.Add(order);
+                await _context.SaveChangesAsync();
+                Console.WriteLine("Order added successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error adding order: {ex.Message}");
+            }
+        }
+
+        public async Task RemoveOrderAsync()
+        {
+            try
+            {
+                var lastOrder = await _context.Orders.OrderByDescending(o => o.Id).FirstOrDefaultAsync();
+                if (lastOrder != null)
+                {
+                    _context.Orders.Remove(lastOrder);
+                    await _context.SaveChangesAsync();
+                    Console.WriteLine("Order removed successfully.");
+                }
+                else
+                {
+                    Console.WriteLine("No orders to remove.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error removing order: {ex.Message}");
+            }
+        }
+
+        public async Task<List<Order>> GetOrdersByDatesIntervalAsync()
+        {
+            try
+            {
+                Console.WriteLine("Enter start date (1-31): ");
+                int.TryParse(Console.ReadLine(), out int startDate);
+                
+                Console.WriteLine("Enter end date (1-31): ");
+                int.TryParse(Console.ReadLine(), out int endDate);
+
+                var orders = await _context.Orders
+                    .Where(o => o.Date >= startDate && o.Date <= endDate)
+                    .ToListAsync();
+
+                Console.WriteLine($"Found {orders.Count} orders between {startDate} and {endDate}.");
+                return orders;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving orders by date interval: {ex.Message}");
+                return new List<Order>();
+            }
+        }
+
+        public async Task<List<Order>> GetOrderByDateAsync()
+        {
+            try
+            {
+                Console.WriteLine("Enter date (1-31): ");
+                int.TryParse(Console.ReadLine(), out int date);
+
+                var orders = await _context.Orders
+                    .Where(o => o.Date == date)
+                    .ToListAsync();
+
+                Console.WriteLine($"Found {orders.Count} orders on date {date}.");
+                return orders;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving orders by date: {ex.Message}");
+                return new List<Order>();
+            }
+        }
+
+        public async Task<List<Order>> GetOrdersByPriceIntervalAsync()
+        {
+            try
+            {
+                Console.WriteLine("Enter minimum price: ");
+                decimal.TryParse(Console.ReadLine(), out decimal minPrice);
+                
+                Console.WriteLine("Enter maximum price: ");
+                decimal.TryParse(Console.ReadLine(), out decimal maxPrice);
+
+                var orders = await _context.Orders
+                    .Where(o => o.TotalAmount >= minPrice && o.TotalAmount <= maxPrice)
+                    .ToListAsync();
+
+                Console.WriteLine($"Found {orders.Count} orders between ${minPrice} and ${maxPrice}.");
+                return orders;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving orders by price interval: {ex.Message}");
+                return new List<Order>();
+            }
+        }
+
+        public async Task<List<Order>> GetOrdersByNoAsync()
+        {
+            try
+            {
+                var orders = await _context.Orders.ToListAsync();
+                Console.WriteLine($"Total orders in database: {orders.Count}");
+                foreach (var order in orders)
+                {
+                    Console.WriteLine($"Order ID: {order.Id}, Total Amount: ${order.TotalAmount}, Date: {order.Date}");
+                }
+                return orders;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving orders: {ex.Message}");
+                return new List<Order>();
+            }
+        }
+    }
+}

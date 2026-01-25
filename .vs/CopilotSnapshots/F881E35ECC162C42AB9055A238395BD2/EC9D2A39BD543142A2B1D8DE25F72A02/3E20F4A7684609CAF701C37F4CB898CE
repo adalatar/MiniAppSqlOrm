@@ -1,0 +1,41 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Restaurant.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Restaraunt.DAL.Data
+{
+    public class RestararauntAppDbContext : DbContext
+    {
+        public DbSet<MenuItem> MenuItems { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+
+        public RestararauntAppDbContext() : base()
+        {
+        }
+
+        public RestararauntAppDbContext(DbContextOptions<RestararauntAppDbContext> options) : base(options)
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=RestarauntAppDb;Trusted_Connection=True;MultipleActiveResultSets=true");
+            }
+            base.OnConfiguring(optionsBuilder);
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(RestararauntAppDbContext).Assembly);
+            base.OnModelCreating(modelBuilder);
+        }
+        
+    }
+
+
+}

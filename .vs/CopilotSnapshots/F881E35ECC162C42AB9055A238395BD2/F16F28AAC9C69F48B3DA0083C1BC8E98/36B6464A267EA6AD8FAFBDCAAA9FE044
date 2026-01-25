@@ -1,0 +1,31 @@
+﻿using Resataraunt.BLL.Interfaces;
+using Restaurant.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Resataraunt.BLL.Services
+{
+    public class MenuItemService : IMenuItemService
+    {
+        public void AddMenuItem(MenuItem menuItem)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void EditMenuItem(MenuItem menuItem)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void GetMenuItems(MenuItem menuItems)
+        {
+          
+        }
+
+        public void RemoveMenuItem(MenuItem menuItem)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

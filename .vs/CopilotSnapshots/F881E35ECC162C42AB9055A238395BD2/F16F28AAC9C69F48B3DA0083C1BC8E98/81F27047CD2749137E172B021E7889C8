@@ -1,0 +1,43 @@
+﻿using Resataraunt.BLL.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Resataraunt.BLL.Services
+{
+    public class OrderService : IOrderService
+    {
+
+        public List<IOrderService> GetOrders()   
+        {
+            return new List<IOrderService>();
+        }
+        public void AddOrders()
+        {
+            return;
+        }
+        public void RemoveOrder()
+        {
+            return;
+        }
+        public List<IOrderService> GetOrdersByDatesInterval()
+        {
+            return new List<IOrderService>();
+        }
+
+        public List<IOrderService> GetOrdersByDate()
+        {
+            return new List<IOrderService>();
+        }
+        public List<IOrderService> GetOrdersByPriceInterval()
+        {
+            return new List<IOrderService>();
+        }
+        public List<IOrderService> GetOrdersByNo()
+        {
+            return new List<IOrderService>();
+        }
+
+       
+    }
+}

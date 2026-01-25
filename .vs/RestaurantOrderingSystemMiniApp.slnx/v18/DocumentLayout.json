@@ -3,46 +3,67 @@
   "WorkspaceRootPath": "C:\\Users\\adala\\source\\repos\\RestaurantOrderingSystemMiniApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFC1078E-D3F5-4A6E-A1C1-E3C5F322C164}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\data\\configurations\\menuitemconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECE4AB7-65B3-E55B-F574-295FB4232883}|..\\Resataraunt.BLL\\Resataraunt.BLL.csproj|c:\\users\\adala\\source\\repos\\resataraunt.bll\\dtos\\orderdto\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFC1078E-D3F5-4A6E-A1C1-E3C5F322C164}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\data\\repositories\\restarauntmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECE4AB7-65B3-E55B-F574-295FB4232883}|..\\Resataraunt.BLL\\Resataraunt.BLL.csproj|c:\\users\\adala\\source\\repos\\resataraunt.bll\\dtos\\orderdto\\orderreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFC1078E-D3F5-4A6E-A1C1-E3C5F322C164}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\data\\restararauntappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECE4AB7-65B3-E55B-F574-295FB4232883}|..\\Resataraunt.BLL\\Resataraunt.BLL.csproj|c:\\users\\adala\\source\\repos\\resataraunt.bll\\dtos\\menuitemdtos\\menuitemreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF02FAC-341E-4383-B599-4AF908666AE6}|..\\Restaurant.Core\\Restaurant.Core.csproj|c:\\users\\adala\\source\\repos\\restaurant.core\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECE4AB7-65B3-E55B-F574-295FB4232883}|..\\Resataraunt.BLL\\Resataraunt.BLL.csproj|c:\\users\\adala\\source\\repos\\resataraunt.bll\\dtos\\menuitemdtos\\menuitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF02FAC-341E-4383-B599-4AF908666AE6}|..\\Restaurant.Core\\Restaurant.Core.csproj|c:\\users\\adala\\source\\repos\\restaurant.core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECE4AB7-65B3-E55B-F574-295FB4232883}|..\\Resataraunt.BLL\\Resataraunt.BLL.csproj|c:\\users\\adala\\source\\repos\\resataraunt.bll\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF02FAC-341E-4383-B599-4AF908666AE6}|..\\Restaurant.Core\\Restaurant.Core.csproj|c:\\users\\adala\\source\\repos\\restaurant.core\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECE4AB7-65B3-E55B-F574-295FB4232883}|..\\Resataraunt.BLL\\Resataraunt.BLL.csproj|c:\\users\\adala\\source\\repos\\resataraunt.bll\\interfaces\\imenuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C81C9555-407F-4F21-905E-A33CB5AC5E1A}|..\\Restaurantt.PL\\Restaurantt.PL.csproj|c:\\users\\adala\\source\\repos\\restaurantt.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8BBD4D7-2340-D309-0941-E764A397EFA8}|..\\Restaurant.Core\\Restaurant.Core.csproj|c:\\users\\adala\\source\\repos\\restaurant.core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF02FAC-341E-4383-B599-4AF908666AE6}|..\\Restaurant.Core\\Restaurant.Core.csproj|c:\\users\\adala\\source\\repos\\restaurant.core\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECE4AB7-65B3-E55B-F574-295FB4232883}|..\\Resataraunt.BLL\\Resataraunt.BLL.csproj|c:\\users\\adala\\source\\repos\\resataraunt.bll\\services\\menuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFC1078E-D3F5-4A6E-A1C1-E3C5F322C164}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\data\\configurations\\orderconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECE4AB7-65B3-E55B-F574-295FB4232883}|..\\Resataraunt.BLL\\Resataraunt.BLL.csproj|c:\\users\\adala\\source\\repos\\resataraunt.bll\\resataraunt.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFC1078E-D3F5-4A6E-A1C1-E3C5F322C164}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\data\\configurations\\orderitemconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8BBD4D7-2340-D309-0941-E764A397EFA8}|..\\Restaurant.Core\\Restaurant.Core.csproj|c:\\users\\adala\\source\\repos\\restaurant.core\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFC1078E-D3F5-4A6E-A1C1-E3C5F322C164}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\restaraunt.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B8BBD4D7-2340-D309-0941-E764A397EFA8}|..\\Restaurant.Core\\Restaurant.Core.csproj|c:\\users\\adala\\source\\repos\\restaurant.core\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B06B80-905A-4659-B24E-9736A4BCEA9B}|..\\Resataraunt.BLL\\Resataraunt.BLL.csproj|c:\\users\\adala\\source\\repos\\resataraunt.bll\\resataraunt.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EECE4AB7-65B3-E55B-F574-295FB4232883}|..\\Resataraunt.BLL\\Resataraunt.BLL.csproj|c:\\users\\adala\\source\\repos\\resataraunt.bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C81C9555-407F-4F21-905E-A33CB5AC5E1A}|..\\Restaurantt.PL\\Restaurantt.PL.csproj|c:\\users\\adala\\source\\repos\\restaurantt.pl\\restaurantt.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{16AC19E2-8E30-0943-AE91-5DFF3BDAEB0B}|..\\Restaurantt.PL\\Restaurantt.PL.csproj|c:\\users\\adala\\source\\repos\\restaurantt.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF02FAC-341E-4383-B599-4AF908666AE6}|..\\Restaurant.Core\\Restaurant.Core.csproj|c:\\users\\adala\\source\\repos\\restaurant.core\\restaurant.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B8BBD4D7-2340-D309-0941-E764A397EFA8}|..\\Restaurant.Core\\Restaurant.Core.csproj|c:\\users\\adala\\source\\repos\\restaurant.core\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BBD4D7-2340-D309-0941-E764A397EFA8}|..\\Restaurant.Core\\Restaurant.Core.csproj|c:\\users\\adala\\source\\repos\\restaurant.core\\restaurant.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AC19E2-8E30-0943-AE91-5DFF3BDAEB0B}|..\\Restaurantt.PL\\Restaurantt.PL.csproj|c:\\users\\adala\\source\\repos\\restaurantt.pl\\restaurantt.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B94458B-E473-A5E2-53C9-2FB37D219B26}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\data\\restararauntappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B94458B-E473-A5E2-53C9-2FB37D219B26}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\data\\configurations\\orderitemconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B94458B-E473-A5E2-53C9-2FB37D219B26}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\data\\configurations\\orderconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B94458B-E473-A5E2-53C9-2FB37D219B26}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\data\\configurations\\menuitemconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B94458B-E473-A5E2-53C9-2FB37D219B26}|..\\Restaraunt.DAL\\Restaraunt.DAL.csproj|c:\\users\\adala\\source\\repos\\restaraunt.dal\\migrations\\20260125093555_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,154 +73,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\OrderConfigurations.cs",
-              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Data\\Configurations\\OrderConfigurations.cs",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\OrderConfigurations.cs",
-              "RelativeToolTip": "..\\Restaraunt.DAL\\Data\\Configurations\\OrderConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:19:40.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "..\\Restaurant.Core\\Models\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "..\\Restaurant.Core\\Models\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T06:58:25.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuItem.cs",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\MenuItem.cs",
-              "RelativeDocumentMoniker": "..\\Restaurant.Core\\Models\\MenuItem.cs",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\MenuItem.cs",
-              "RelativeToolTip": "..\\Restaurant.Core\\Models\\MenuItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T07:20:10.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurantt.PL\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Restaurantt.PL\\Program.cs",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurantt.PL\\Program.cs",
-              "RelativeToolTip": "..\\Restaurantt.PL\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T06:57:48.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "..\\Restaurant.Core\\Models\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\OrderItem.cs",
-              "RelativeToolTip": "..\\Restaurant.Core\\Models\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T07:20:03.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "..\\Restaurant.Core\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\Order.cs",
-              "RelativeToolTip": "..\\Restaurant.Core\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T07:19:55.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RestararauntAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\RestararauntAppDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Data\\RestararauntAppDbContext.cs",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\RestararauntAppDbContext.cs",
-              "RelativeToolTip": "..\\Restaraunt.DAL\\Data\\RestararauntAppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T08:22:23.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RestarauntManager.cs",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Repositories\\RestarauntManager.cs",
-              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Data\\Repositories\\RestarauntManager.cs",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Repositories\\RestarauntManager.cs",
-              "RelativeToolTip": "..\\Restaraunt.DAL\\Data\\Repositories\\RestarauntManager.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAywDMAAAAJAAAAAAAAAA==",
+              "Title": "OrderReturnDto.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Dtos\\OrderDto\\OrderReturnDto.cs",
+              "RelativeDocumentMoniker": "..\\Resataraunt.BLL\\Dtos\\OrderDto\\OrderReturnDto.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Dtos\\OrderDto\\OrderReturnDto.cs",
+              "RelativeToolTip": "..\\Resataraunt.BLL\\Dtos\\OrderDto\\OrderReturnDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:19:15.203Z",
+              "WhenOpened": "2026-01-25T10:37:50.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuItemConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\MenuItemConfigurations.cs",
-              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Data\\Configurations\\MenuItemConfigurations.cs",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\MenuItemConfigurations.cs",
-              "RelativeToolTip": "..\\Restaraunt.DAL\\Data\\Configurations\\MenuItemConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "OrderCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Dtos\\OrderDto\\OrderCreateDto.cs",
+              "RelativeDocumentMoniker": "..\\Resataraunt.BLL\\Dtos\\OrderDto\\OrderCreateDto.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Dtos\\OrderDto\\OrderCreateDto.cs",
+              "RelativeToolTip": "..\\Resataraunt.BLL\\Dtos\\OrderDto\\OrderCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T08:20:13.884Z",
+              "WhenOpened": "2026-01-25T10:35:00.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderItemConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\OrderItemConfigurations.cs",
-              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Data\\Configurations\\OrderItemConfigurations.cs",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\OrderItemConfigurations.cs",
-              "RelativeToolTip": "..\\Restaraunt.DAL\\Data\\Configurations\\OrderItemConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAATAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MenuItemReturnDto.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Dtos\\MenuItemDtos\\MenuItemReturnDto.cs",
+              "RelativeDocumentMoniker": "..\\Resataraunt.BLL\\Dtos\\MenuItemDtos\\MenuItemReturnDto.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Dtos\\MenuItemDtos\\MenuItemReturnDto.cs",
+              "RelativeToolTip": "..\\Resataraunt.BLL\\Dtos\\MenuItemDtos\\MenuItemReturnDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T08:20:27.475Z",
+              "WhenOpened": "2026-01-25T10:25:07.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Restaraunt.DAL",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Restaraunt.DAL.csproj",
-              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Restaraunt.DAL.csproj",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Restaraunt.DAL.csproj",
-              "RelativeToolTip": "..\\Restaraunt.DAL\\Restaraunt.DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-24T08:19:13.498Z",
+              "DocumentIndex": 3,
+              "Title": "MenuItemCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Dtos\\MenuItemDtos\\MenuItemCreateDto.cs",
+              "RelativeDocumentMoniker": "..\\Resataraunt.BLL\\Dtos\\MenuItemDtos\\MenuItemCreateDto.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Dtos\\MenuItemDtos\\MenuItemCreateDto.cs",
+              "RelativeToolTip": "..\\Resataraunt.BLL\\Dtos\\MenuItemDtos\\MenuItemCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T10:24:45.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Resataraunt.BLL",
               "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Resataraunt.BLL.csproj",
               "RelativeDocumentMoniker": "..\\Resataraunt.BLL\\Resataraunt.BLL.csproj",
@@ -207,33 +137,215 @@
               "RelativeToolTip": "..\\Resataraunt.BLL\\Resataraunt.BLL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-24T08:20:31.118Z",
+              "WhenOpened": "2026-01-25T10:23:44.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Restaurantt.PL",
-              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurantt.PL\\Restaurantt.PL.csproj",
-              "RelativeDocumentMoniker": "..\\Restaurantt.PL\\Restaurantt.PL.csproj",
-              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurantt.PL\\Restaurantt.PL.csproj",
-              "RelativeToolTip": "..\\Restaurantt.PL\\Restaurantt.PL.csproj",
+              "DocumentIndex": 7,
+              "Title": "MenuItemService.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Services\\MenuItemService.cs",
+              "RelativeDocumentMoniker": "..\\Resataraunt.BLL\\Services\\MenuItemService.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Services\\MenuItemService.cs",
+              "RelativeToolTip": "..\\Resataraunt.BLL\\Services\\MenuItemService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-24T08:26:37.38Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T10:21:56.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "..\\Restaurant.Core\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\MenuItem.cs",
+              "RelativeToolTip": "..\\Restaurant.Core\\Models\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T09:07:56.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "..\\Restaurant.Core\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\Order.cs",
+              "RelativeToolTip": "..\\Restaurant.Core\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T09:08:03.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMenuItemService.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Interfaces\\IMenuItemService.cs",
+              "RelativeDocumentMoniker": "..\\Resataraunt.BLL\\Interfaces\\IMenuItemService.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Interfaces\\IMenuItemService.cs",
+              "RelativeToolTip": "..\\Resataraunt.BLL\\Interfaces\\IMenuItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAtwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T08:40:45.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "..\\Resataraunt.BLL\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "..\\Resataraunt.BLL\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAhwAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T09:16:38.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\Restaurant.Core\\Models\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "..\\Restaurant.Core\\Models\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T09:08:10.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Restaurant.Core",
               "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Restaurant.Core.csproj",
               "RelativeDocumentMoniker": "..\\Restaurant.Core\\Restaurant.Core.csproj",
               "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Restaurant.Core.csproj",
               "RelativeToolTip": "..\\Restaurant.Core\\Restaurant.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-24T06:57:54.229Z",
+              "WhenOpened": "2026-01-25T09:24:26.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "..\\Restaurant.Core\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurant.Core\\Models\\OrderItem.cs",
+              "RelativeToolTip": "..\\Restaurant.Core\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T09:08:05.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurantt.PL\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Restaurantt.PL\\Program.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurantt.PL\\Program.cs",
+              "RelativeToolTip": "..\\Restaurantt.PL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T09:21:31.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\Resataraunt.BLL\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Resataraunt.BLL\\Services\\OrderService.cs",
+              "RelativeToolTip": "..\\Resataraunt.BLL\\Services\\OrderService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwCMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T08:41:00.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Restaurantt.PL",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaurantt.PL\\Restaurantt.PL.csproj",
+              "RelativeDocumentMoniker": "..\\Restaurantt.PL\\Restaurantt.PL.csproj",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaurantt.PL\\Restaurantt.PL.csproj",
+              "RelativeToolTip": "..\\Restaurantt.PL\\Restaurantt.PL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-25T09:24:30.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RestararauntAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\RestararauntAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Data\\RestararauntAppDbContext.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\RestararauntAppDbContext.cs",
+              "RelativeToolTip": "..\\Restaraunt.DAL\\Data\\RestararauntAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T08:26:21.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderItemConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\OrderItemConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Data\\Configurations\\OrderItemConfigurations.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\OrderItemConfigurations.cs",
+              "RelativeToolTip": "..\\Restaraunt.DAL\\Data\\Configurations\\OrderItemConfigurations.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T09:09:56.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\OrderConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Data\\Configurations\\OrderConfigurations.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\OrderConfigurations.cs",
+              "RelativeToolTip": "..\\Restaraunt.DAL\\Data\\Configurations\\OrderConfigurations.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T08:36:44.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MenuItemConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\MenuItemConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Data\\Configurations\\MenuItemConfigurations.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Data\\Configurations\\MenuItemConfigurations.cs",
+              "RelativeToolTip": "..\\Restaraunt.DAL\\Data\\Configurations\\MenuItemConfigurations.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T08:36:45.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260125093555_initial.cs",
+              "DocumentMoniker": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Migrations\\20260125093555_initial.cs",
+              "RelativeDocumentMoniker": "..\\Restaraunt.DAL\\Migrations\\20260125093555_initial.cs",
+              "ToolTip": "C:\\Users\\adala\\source\\repos\\Restaraunt.DAL\\Migrations\\20260125093555_initial.cs",
+              "RelativeToolTip": "..\\Restaraunt.DAL\\Migrations\\20260125093555_initial.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T09:37:47.294Z",
               "EditorCaption": ""
             }
           ]

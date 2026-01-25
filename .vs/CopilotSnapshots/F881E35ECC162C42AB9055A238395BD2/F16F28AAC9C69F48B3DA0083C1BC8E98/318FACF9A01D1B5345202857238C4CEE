@@ -1,0 +1,22 @@
+﻿using System.Xml.Serialization;
+using System;
+namespace Restaurantt.PL
+{
+    public class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine("SASAS");
+        }
+    }
+}
+
+    
+
+
+
+
+
+
+
+    
