@@ -44,9 +44,15 @@ The solution is structured into multiple layers:
 
 RestaurantSolution
 │
-├── Restaurantt.PL          # Presentation Layer (Console UI)
-├── Resataraunt.BLL         # Business Logic Layer (Services)
-├── Restaurant.Core         # Core Models (Entities)
+
+├── Restaurantt.PL
+# Presentation Layer (Console UI)
+
+├── Resataraunt.BLL
+# Business Logic Layer (Services)
+
+├── Restaurant.Core 
+# Core Models (Entities)
 
 Layer Responsibilities
 
